@@ -12,6 +12,7 @@
 		E64385DC1D5C0FD000944DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64385DA1D5C0FD000944DED /* Main.storyboard */; };
 		E64385DE1D5C0FD000944DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E64385DD1D5C0FD000944DED /* Assets.xcassets */; };
 		E64385E11D5C0FD000944DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E64385DF1D5C0FD000944DED /* LaunchScreen.storyboard */; };
+		E64385E91D5C129A00944DED /* EnterNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64385E81D5C129A00944DED /* EnterNameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E64385DD1D5C0FD000944DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E64385E01D5C0FD000944DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E64385E21D5C0FD000944DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E64385E81D5C129A00944DED /* EnterNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterNameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				E64385D61D5C0FD000944DED /* AppDelegate.swift */,
 				E64385D81D5C0FD000944DED /* ViewController.swift */,
 				E64385DA1D5C0FD000944DED /* Main.storyboard */,
+				E64385E81D5C129A00944DED /* EnterNameViewController.swift */,
 				E64385DD1D5C0FD000944DED /* Assets.xcassets */,
 				E64385DF1D5C0FD000944DED /* LaunchScreen.storyboard */,
 				E64385E21D5C0FD000944DED /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E64385E91D5C129A00944DED /* EnterNameViewController.swift in Sources */,
 				E64385D91D5C0FD000944DED /* ViewController.swift in Sources */,
 				E64385D71D5C0FD000944DED /* AppDelegate.swift in Sources */,
 			);
